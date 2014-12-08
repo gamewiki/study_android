@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchlayout"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/mKeyword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textSize="18sp" >
+    </EditText>
+    
+    <RadioGroup 
+        android:id="@+id/radioGroup"
+        android:layout_below="@id/mKeyword" 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton 
+            android:id="@+id/radiosacard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sdcard"
+            android:textColor="@drawable/text_color" 
+            />
+        <RadioButton 
+            android:id="@+id/radioall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:textColor="@drawable/text_color" 
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/mButton"
+        android:layout_below="@id/radioGroup" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_button" >
+    </Button>
+    <TextView 
+        android:id="@+id/mResult"
+        android:layout_below="@id/mButton" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@drawable/text_color" />
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_below="@id/mResult" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:background="@drawable/list_color"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

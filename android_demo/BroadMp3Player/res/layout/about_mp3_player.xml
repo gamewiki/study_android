@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView 
+        android:id="@+id/about_player_part1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+    <TextView 
+        android:id="@+id/about_player_part2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+    <TextView 
+        android:id="@+id/about_player_part3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+</LinearLayout>

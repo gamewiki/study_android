@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	android:delay：时间间隔1秒 
+	android:animationOrder:播放顺序随机"random"、normal
+ -->
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:delay="1"
+    android:animationOrder="random"
+    android:animation="@anim/list_anim"/>

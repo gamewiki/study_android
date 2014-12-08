@@ -1,0 +1,1 @@
+1.有关异步操作去查看com.sid.tencent.progress.asynctask包下的前三个类

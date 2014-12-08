@@ -1,0 +1,133 @@
+<resources>
+
+    <string name="wishWord">愿天下有情人终成眷属</string>
+
+    <string name="app_name">最佳恋人</string>
+    <string name="menu_settings">设置菜单</string>
+    <string name="title_activity_lover">最佳恋人</string>
+    <string name="enterLover">enterLover</string>
+    <string name="enterPeriod">enterPeriod</string>
+    <string name="days">days</string>
+    <string name="aboutlover">aboutlover</string>
+    <string name="setting">setting</string>
+    <string name="tools">tools</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="note_list_delete">您的定时短信(长按删除)</string>
+    <string name="favorite_list_delete">Ta的个人喜好(长按删除)</string>
+    <string name="experience_list_delete">Ta的个人经历(长按删除)</string>
+    <string name="note_delete_msg">确定删除记录？</string>
+    <string name="note_delete_success">记录删除成功</string>
+    <string name="note_miss">数据丢失，请重操作</string>
+    <string name="note_length_1000">请控制在1000字以内</string>
+    <string name="editNote">添加/编辑记录</string>
+    <string name="addNoteSuccess">成功添加记录</string>
+    <string name="addNoteNull">记录内容不允许为空</string>
+    <string name="NoteExist">存在相同内容的记录</string>
+    
+
+    <string name="blueDescription">最佳恋人头背景</string>
+    <string name="blueText">最佳恋人</string>
+    
+    <string name="toolsText">小工具</string>
+    <string name="sendTime">时间：</string>
+    <string name="sendContext">内容：</string>
+    <string name="sendContextError">内容请小于50个字</string>
+    <string name="addClockSuccess">添加成功</string>
+    <string name="updateClockSuccess">更新成功</string>
+    <string name="clockExist">相同数据已经存在</string>
+    <string name="intervalClock">提醒间隔</string>
+    <string name="cancelClock">取消提醒</string>
+    <string name="intervalRingClock">一会提醒</string>
+    <string name="editSendMsgError">短信内容请小于50个字</string>
+    
+    <string name="storyText">爱的故事</string>
+    
+    <string name="settingText">设置</string>
+    <string name="setPassword">设置密码：</string>
+    <string name="password">点击设置</string>
+    <string name="setQuestion">密保问题：</string>
+    <string name="question">点击设置问题，用于找回密码</string>
+    <string name="setAnswer">密保答案：</string>
+    <string name="answer">点击设置密保答案</string>
+    <string name="settingError">输入内容不得超过20个字符</string>
+    <string name="resetting">重新设置密码</string>
+    
+    <string name="periodText">生理期</string>
+    <string name="previousMonth">上月</string>
+    <string name="nextMonth">下月</string>
+    <string name="periodThings">注意事项</string>
+    <string name="aboutPeriod">关于生理期</string>
+    <string name="enterCalendar">进入日历查询</string>
+    <string name="periodDaysText">月经周期：</string>
+    <string name="periodDays">30</string>
+    <string name="periodDay">0</string>
+    <string name="periodDayText">点击设置月经来潮</string>
+	<string name="periodThingsError">数据可能已经丢失，给您带来的不便，非常抱歉</string>
+    <string name="periodDaysError">身体出现紊乱了哦~建议去看看医生</string>
+    <string name="periodDayError">输入日期有误，请重新输入</string>
+    <string name="periodDaysDes">生理期：禁止发生性行为，照顾好女生</string>
+    <string name="coldDaysDes">冰冻期：尽量少吃冰冻食物</string>
+    <string name="dangerDaysDes">危险期：性事受孕概率较大</string>
+    <string name="safeDaysDes">安全期：受孕概率较小</string>
+    
+    <string name="dateText">纪念日</string>
+    <string name="dateDescText">纪念描述</string>
+    <string name="titleDays">我们的纪念日</string>
+    <string name="titleTextClock">提醒文字</string>
+    <string name="titleDaysError">提醒文字个数在500字之内</string>
+    <string name="datePicker">选择日期</string>
+    <string name="timePicker">提醒时间</string>
+    <string name="bellsChoice">选择铃声</string>
+    <string name="bellsChoice_failed">当前系统找不到闹铃库无法设置</string>
+    <string name="shockChoice">振动类型</string>
+    <string name="clockAddErrorText">请设置提醒的相关信息</string>
+    <string name="statusChoice">提醒状态</string>
+    <string name="statusOpen">开启提醒</string>
+    <string name="statusClose">关闭提醒</string>
+    <string name="albumText">添加相片</string>
+    
+    <string name="aboutText">关于恋人</string>
+    <string name="addMsg">定时短信</string>
+    <string name="name">昵称：</string>
+    <string name="nickname">大宝贝儿</string>
+    <string name="editnicknameError">昵称请小于10个字符</string>
+    <string name="birthday">生日：</string>
+    <string name="sagittarius">9</string>
+    <string name="description">描述：</string>
+    <string name="editdescription">个人描述</string>
+    <string name="editdescriptionError">个人描述请小于100个字符</string>
+    <string name="phone">电话：</string>
+    <string name="editephone">设置电话</string>
+    <string name="editphoneError">手机号码不正确</string>
+    <string name="contact">联系方式</string>
+    <string name="experience">在意的经历</string>
+    <string name="favorite">个人喜好</string>
+    <string name="constellation">星座</string>
+    <string name="partialError">请补全信息后进行保存</string>
+    <string name="addSuccess">保存成功</string>
+    <string name="exist">数据已经存在</string>
+    
+    
+    <string name="enterClock">进入闹钟</string>
+    <string name="clock_list_delete">您的闹钟记录(长按删除)</string>
+    <string name="cateClock">闹钟类型</string>
+    <string name="shockClock">振动类型</string>
+    <string name="titleClock">提示文字</string>
+    <string name="weeksClock">重复方式</string>
+    <string name="weeksClock_workday">重复(工作日)</string>
+    <string name="weeksClock_everyday">重复(每天)</string>
+    <string name="weeksClock_norepeate">不重复</string>
+    <string name="weeksClock_before">重复(</string>
+    <string name="weeksClock_after">)</string>
+    <string name="titles">我们的纪念日</string>
+    <string name="titleError">提醒文字个数在500字之内</string>
+    <string name="interval">15</string>
+    <string name="intervalClock_before">提醒间隔(</string>
+    <string name="intervalClock_after">分钟)</string>
+    <string name="intervalError">提醒间隔时间请在0到60之间</string>
+    <string name="bellsClock">闹钟铃声</string>
+    <string name="bellsClock_failed">当前系统找不到闹铃库无法设置</string>
+    <string name="signsClock">闹钟类型</string>
+    <string name="addClockNull">便利贴内容不允许为空</string>
+</resources>

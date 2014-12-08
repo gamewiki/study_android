@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center_vertical"
+  android:layout_gravity="center">
+  <!--  
+  		android:unselectedAlpha 设置选中的图片的透明度
+  		android:spacing  图片之间的空白大小
+  -->
+  <Gallery 
+  	android:id="@+id/gallery"
+  	
+  	
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:spacing="10dip"
+  	android:unselectedAlpha="1"
+  	
+  	
+  	android:background="@drawable/bg_activity_stroe_galler"/>
+</LinearLayout>

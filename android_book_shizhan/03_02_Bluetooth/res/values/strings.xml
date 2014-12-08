@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">03_02_Bluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bluetooth">Bluetooth02Activity</string>
+
+    <string name="bluetooth">检测自身的蓝牙设备</string>
+    <string name="bluetoothDiscover">设置蓝牙设备可见性</string>
+    <string name="bluetoothScan">扫描周围蓝牙设备</string>
+</resources>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/note_clock_background" >
+    
+    <ImageView android:id="@+id/blue"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/blueText"
+        style="@style/wood_note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/blueText"/>
+    
+    <ImageButton android:id="@+id/createClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/note_clockadd_selector"
+        android:layout_toLeftOf="@id/blueText"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <ImageButton android:id="@+id/exitClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/note_clockfinish_selector"
+        android:layout_toRightOf="@id/blueText"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/delteText"
+        style="@style/other_note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue"
+        android:padding="3dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/clock_list_delete"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:background="@drawable/list_item_bg"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/delteText" 
+        android:layout_above="@id/adview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+    <com.tencent.mobwin.AdView
+        xmlns:mobwin="http://mobwin.android.com/apk/res/sid.note"
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        mobwin:backAlpha="180"
+        mobwin:textColor="#ffff3333"
+        mobwin:titleColor="#ff00aa00" >
+    </com.tencent.mobwin.AdView>
+</RelativeLayout>

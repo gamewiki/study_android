@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_43_rss</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_rss">RSSActivity</string>
+    <string name="str_title">设置你需要的RSS：</string>
+    <string name="str_button">按下开始解析</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">03_05_UserLocationGeocoding</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_geo">GeoActivity</string>
+    <string name="geo">获取当地的经纬度</string>
+    <string name="reverseGeo">根据经纬度获取地址</string>
+
+</resources>

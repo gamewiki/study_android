@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/myText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20px"
+        android:layout_y="42px"
+        android:text="@string/str_text1"
+        android:textSize="16sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_x="110px"
+        android:layout_y="32px" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/myText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20px"
+        android:layout_y="102px"
+        android:text="@string/str_text2"
+        android:textSize="16sp" >
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/myProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_x="110px"
+        android:layout_y="102px"
+        android:max="7"
+        android:progress="5" >
+    </ProgressBar>
+
+    <ImageButton
+        android:id="@+id/downButton"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_x="50px"
+        android:layout_y="162px"
+        android:src="@drawable/down" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/upButton"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_x="150px"
+        android:layout_y="162px"
+        android:src="@drawable/up" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/normalButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_x="50px"
+        android:layout_y="272px"
+        android:src="@drawable/normal" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/muteButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_x="120px"
+        android:layout_y="272px"
+        android:src="@drawable/mute" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/vibrateButton"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_x="190px"
+        android:layout_y="272px"
+        android:src="@drawable/vibrate" >
+    </ImageButton>
+
+</AbsoluteLayout>

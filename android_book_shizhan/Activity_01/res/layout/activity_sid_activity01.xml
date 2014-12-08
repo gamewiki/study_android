@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 
+    	1.增加id
+    		android:id="@+id/myTextView"
+    	2.设置宽度（填充父窗口）
+    	 	android:layout_width="fill_parent"
+    	3.设置高度（根据填充内容的高度来设置高度）
+    		android:layout_height="wrap_content"
+     -->
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 建立第一个TextView -->
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <!-- 建立第二个TextView -->
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="62px"
+        android:layout_height="24px"
+        android:layout_x="12px"
+        android:layout_y="28px"
+        android:text="第一个：" />
+    <!-- 建立第三个TextView -->
+
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="226px"
+        android:layout_height="23px"
+        android:layout_x="13px"
+        android:layout_y="51px"
+        android:text="@string/str_text1" />
+    <!-- 建立第四个TextView -->
+
+    <TextView
+        android:id="@+id/myTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12px"
+        android:layout_y="103px"
+        android:text="第二个：" />
+    <!-- 建立第五个TextView -->
+
+    <TextView
+        android:id="@+id/myTextView5"
+        android:layout_width="223px"
+        android:layout_height="24px"
+        android:layout_x="14px"
+        android:layout_y="133px"
+        android:text="@string/str_text2" />
+    <!-- 建立第一个Button -->
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="57px"
+        android:layout_height="38px"
+        android:layout_x="239px"
+        android:layout_y="52px"
+        android:text="@string/str_button" />
+    <!-- 建立第二个Button -->
+
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="58px"
+        android:layout_height="38px"
+        android:layout_x="236px"
+        android:layout_y="132px"
+        android:text="@string/str_button" />
+
+</AbsoluteLayout>

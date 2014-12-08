@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">jianghu_27_draw</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_draw">DrawActivity</string>
+    <string name="str_text1">圆</string>
+    <string name="str_text2">正方形</string>
+    <string name="str_text3">长方形</string>
+    <string name="str_text4">椭圆</string>
+    <string name="str_text5">三角形</string>
+    <string name="str_text6">梯形</string>
+
+</resources>

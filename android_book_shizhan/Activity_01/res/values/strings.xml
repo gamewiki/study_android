@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Activity_01</string>
+    <string name="hello_world">Hello啊</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sid_activity01">SidActivity01</string>
+    <string name="buttonText">我是按钮</string>
+
+</resources>

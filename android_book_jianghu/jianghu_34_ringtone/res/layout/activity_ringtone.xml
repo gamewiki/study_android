@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="按下按钮设置铃声" />
+
+    <Button
+        android:id="@+id/ButtonRingtone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置来电的铃声" />
+
+    <Button
+        android:id="@+id/ButtonAlarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置闹钟的铃声" />
+
+    <Button
+        android:id="@+id/ButtonNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="设置通知的铃声" />
+
+</LinearLayout>

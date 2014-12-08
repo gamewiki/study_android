@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="hello">example3</string>
+    <string name="app_name">jianghu_20_groupmsg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_msg">MsgActivity</string>
+    <string name="str_button">开始发送</string>
+    <string name="str_msg">已成功发送给:</string>
+    <string name="str_text1">三八节快乐~~！</string>
+    <string name="str_text2">妇女朋友们好!!</string>
+
+</resources>

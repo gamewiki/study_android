@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp">
+    <TextView android:id="@+id/lrcText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:minHeight="150dp"
+        android:text="@string/text"
+        />
+    <ImageButton 
+        android:contentDescription="@string/star"
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mp3_yellow_round_star"/>
+    <ImageButton 
+        android:contentDescription="@string/pause"
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mp3_yellow_round_pause"/>
+    <ImageButton 
+        android:contentDescription="@string/stop"
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mp3_yellow_round_stop"/>
+</LinearLayout>

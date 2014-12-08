@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="14dip"
+    android:paddingBottom="20dip"
+    android:background="#e6e6e6" >
+
+    <RelativeLayout
+        android:id="@+id/gelistfootTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mobile7_ge_more_bg" >
+
+        <TextView
+            android:id="@+id/gelistfootTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@android:drawable/ic_menu_more"
+            android:gravity="center"
+            android:text="@string/geListFootText"
+            android:textColor="#FF828282"
+            android:textSize="20dip" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

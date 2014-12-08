@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">jianghu_13_spinner_status</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+  <string name="str_title">当前的状态是：</string>
+
+</resources>

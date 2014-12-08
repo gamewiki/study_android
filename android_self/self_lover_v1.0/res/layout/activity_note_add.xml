@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/about_background"
+    android:scrollbars="vertical" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background1" >
+    
+    <ImageView android:id="@+id/blue"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/blueText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aboutText"/>
+    
+    <ImageButton android:id="@+id/saveLover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aboutlover_save_selector"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:contentDescription="@string/blueDescription"/>
+    
+
+
+    <TextView android:id="@+id/editNoteID"
+        android:layout_below="@id/blue" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView android:id="@+id/editColor"
+        android:layout_below="@id/editNoteID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    
+    <TextView android:id="@+id/noteContent"
+        android:layout_below="@id/editColor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="400dp"/>
+    <LinearLayout
+        android:id="@+id/interGELinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>
+</ScrollView>

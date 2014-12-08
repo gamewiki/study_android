@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">02_04_Bar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bar">BarActivity</string>
+    <string name="seekBar">测试seekbar</string>
+    <string name="ratingBar">测试ratingBar</string>
+
+</resources>

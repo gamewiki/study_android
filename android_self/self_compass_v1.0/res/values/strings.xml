@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">阿良指南针</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_point">阿良指南针</string>
+    <string name="welcom_word">欢迎使用阿良指南针</string>
+    <string name="textNote">数据初始化中</string>
+    <string name="angleNote">请您等待</string>
+    <string name="pointImage">pointImage</string>
+    
+    <!-- 方向文字提示 -->
+    <string name="north">前方正北</string>
+    <string name="northeast">前方东北</string>
+    <string name="east">前方正东</string>
+    <string name="southeast">前方东南</string>
+    <string name="south">前方正南</string>
+    <string name="southwest">前方西南</string>
+    <string name="west">前方正西</string>
+    <string name="northwest">前方西北</string>
+    <string name="ByNorth">偏北</string>
+    <string name="placed">请将手机水平放置</string>
+    <string name="upward">屏幕朝上</string>
+</resources>

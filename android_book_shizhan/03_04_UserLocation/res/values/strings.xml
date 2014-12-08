@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">03_04_UserLocation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+    <string name="all">获取所有provider</string>
+    <string name="best">获取最佳provider</string>
+    <string name="location">用户位置</string>
+</resources>

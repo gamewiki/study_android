@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cg_backgroud"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cg_userlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5pt"
+        android:width="180dp"
+        android:singleLine="true"
+        android:textSize="18sp" 
+        android:text="@string/cg_userlist">
+    </TextView>
+
+    <Button
+        android:id="@+id/cg_delete_Button"
+        android:layout_toRightOf="@id/cg_userlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cg_delete_button" >
+    </Button>
+    
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_below="@id/cg_userlist" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</RelativeLayout>

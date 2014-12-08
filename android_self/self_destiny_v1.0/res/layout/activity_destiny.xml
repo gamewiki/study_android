@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/destiny_backgroud"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ImageButton 
+        android:id="@+id/enterCG"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cg_appname"
+        android:contentDescription="@string/enterCG"
+        />
+    <ImageButton 
+        android:id="@+id/originCG"
+        android:layout_toRightOf="@id/enterCG" 
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cg_appdes"
+        android:contentDescription="@string/originCG"
+        />
+</RelativeLayout>

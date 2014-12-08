@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">XML4SAX</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_xml">XMLActivity</string>
+    <string name="button">读取xml</string>
+
+</resources>

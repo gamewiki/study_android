@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_05_filesearch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="str_button">搜索引擎</string>
+    <string name="str_title">输入关键字：</string>
+
+</resources>

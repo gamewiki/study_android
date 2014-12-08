@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/base_activity" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+		
+        <ImageButton
+            android:id="@+id/saveClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="44.0dp"
+            android:background="@drawable/m_bar_save_story"
+            android:contentDescription="@string/blueDescription" />
+
+        <TextView
+            android:id="@+id/dateChoice"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saveClock"
+            android:text="@string/datePicker" />
+
+        <TextView
+            android:id="@+id/datePicker"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saveClock"
+            android:layout_toRightOf="@id/dateChoice"
+            android:text="@string/datePicker" />
+
+        <TextView
+            android:id="@+id/timeChoice"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datePicker"
+            android:text="@string/timePicker" />
+
+        <TextView
+            android:id="@+id/timePicker"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datePicker"
+            android:layout_toRightOf="@id/timeChoice"
+            android:text="@string/timePicker" />
+
+        <TextView
+            android:id="@+id/bellsChoice"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timePicker"
+            android:text="@string/bellsChoice" />
+
+        <TextView
+            android:id="@+id/bellsClock"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timePicker"
+            android:layout_toRightOf="@id/bellsChoice"
+            android:text="@string/bellsChoice" />
+
+        <TextView
+            android:id="@+id/shockChoice"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bellsChoice"
+            android:text="@string/shockChoice" />
+
+        <TextView
+            android:id="@+id/shockClock"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bellsChoice"
+            android:layout_toRightOf="@id/shockChoice"
+            android:text="@string/shockChoice" />
+
+        <TextView
+            android:id="@+id/statusChoice"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shockChoice"
+            android:text="@string/statusChoice" />
+
+        <TextView
+            android:id="@+id/statusClock"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shockChoice"
+            android:layout_toRightOf="@id/statusChoice"
+            android:text="@string/statusOpen" />
+
+        <TextView
+            android:id="@+id/dateText"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusClock"
+            android:text="@string/dateText" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusClock"
+            android:layout_toRightOf="@id/dateText"
+            android:text="@string/dateText" />
+
+        <TextView
+            android:id="@+id/descText"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dateText"
+            android:text="@string/dateDescText" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dateText"
+            android:layout_toRightOf="@id/descText"
+            android:text="@string/dateDescText" />
+        
+        <TextView
+            android:id="@+id/albumText"
+            style="@style/days_note_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descText"
+            android:text="@string/dateText" />
+
+        <TextView
+            android:id="@+id/album"
+            style="@style/user_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descText"
+            android:layout_toRightOf="@id/albumText"
+            android:text="@string/albumText" />
+
+        <ImageView
+            android:id="@+id/storyImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_below="@id/albumText"
+            android:contentDescription="@string/storyText"/>
+    </RelativeLayout>
+
+</RelativeLayout>

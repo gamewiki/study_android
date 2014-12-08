@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button 
+        android:id="@+id/scaleButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scale"/>
+    <Button 
+        android:id="@+id/rotateButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scaleButtonId"
+        android:text="@string/rotate"/>
+    <Button 
+        android:id="@+id/alphaButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rotateButtonId"
+        android:text="@string/alpha"/>
+    <Button 
+        android:id="@+id/translateButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alphaButtonId"
+        android:text="@string/translate"/>
+
+    <LinearLayout
+        android:layout_below="@id/translateButtonId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+        <ImageView android:id="@+id/imageViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/mp3_yellow_round_closerepeat"
+            android:contentDescription="@string/des"/>
+    </LinearLayout>
+</RelativeLayout>

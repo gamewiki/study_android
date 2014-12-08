@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">超级便利贴</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_note">超级便利贴</string>
+    <string name="enterNote">进入便利贴</string>
+    <string name="woodDescription">木头背景</string>
+    <string name="woodText">便利贴</string>
+    <string name="addNoteSuccess">成功添加便利贴</string>
+    <string name="addNoteNull">便利贴内容不允许为空</string>
+    <string name="NoteExist">存在相同内容的便利贴</string>
+    <string name="note_list_delete">您的便利贴记录(长按删除)</string>
+    <string name="note_delete_button">清除全部记录</string>
+    <string name="note_delete_msg">确定删除记录？</string>
+    <string name="note_delete_success">记录删除成功</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="note_miss">数据丢失，请重操作</string>
+    <string name="addClock">为便利贴添加闹钟</string>
+
+    
+    
+    <string name="enterClock">进入闹钟</string>
+    <string name="blueDescription">闹钟头背景</string>
+    <string name="blueText">闹钟</string>
+    <string name="clock_list_delete">您的闹钟记录(长按删除)</string>
+    <string name="cateClock">闹钟类型</string>
+    <string name="shockClock">振动类型</string>
+    <string name="titleClock">提示文字</string>
+    <string name="datePicker">选择日期</string>
+    <string name="timePicker">选择时间</string>
+    <string name="weeksClock">重复方式</string>
+    <string name="weeksClock_workday">重复(工作日)</string>
+    <string name="weeksClock_everyday">重复(每天)</string>
+    <string name="weeksClock_norepeate">不重复</string>
+    <string name="weeksClock_before">重复(</string>
+    <string name="weeksClock_after">)</string>
+    <string name="title">快点起床吧，早起的鸟儿有虫吃！</string>
+    <string name="titleTextClock">提醒文字</string>
+    <string name="titleError">提醒文字个数在0到60之间</string>
+    <string name="interval">15</string>
+    <string name="intervalClock">提醒间隔</string>
+    <string name="intervalClock_before">提醒间隔(</string>
+    <string name="intervalClock_after">分钟)</string>
+    <string name="intervalError">提醒间隔时间请在0到60之间</string>
+    <string name="bellsClock">闹钟铃声</string>
+    <string name="bellsClock_failed">当前系统找不到闹铃库无法设置</string>
+    <string name="signsClock">闹钟类型</string>
+    <string name="intervalRingClock">小睡一会</string>
+    <string name="cancelClock">取消闹钟</string>
+    <string name="addClockSuccess">成功添加便利贴</string>
+    <string name="addClockNull">便利贴内容不允许为空</string>
+    <string name="clockExist">存在相同时间的闹钟，请选择不同的时间进行设置</string>
+    <string name="clockAddErrorText">请重新填写闹钟的相关信息</string>
+</resources>

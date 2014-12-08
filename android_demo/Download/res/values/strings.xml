@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Download</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_down">DownActivity</string>
+    <string name="mp3download">下载这首歌曲</string>
+    <string name="textdownload">下载对应歌词</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">jianghu_37_geoaddress</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="str_longitude">经度 ：</string>
+    <string name="str_latitude">纬度 ：</string>
+    <string name="str_err_address">这个地址不存在</string>
+    <string name="str_err_location">获取位置失败</string>
+    <string name="str_my_location">当前地址：</string>
+    <string name="str_default_address"></string>
+    <string name="str_button1">查询地址</string>
+    <string name="str_button2">+</string>
+    <string name="str_button3">-</string>
+
+</resources>

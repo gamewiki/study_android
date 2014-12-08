@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/backe_bg2" android:visibility="gone">
+	<ImageView android:id="@+id/image2" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:text="Rotate"
+		android:textSize="50px" android:layout_x="150px" android:layout_y="30px"
+		android:background="@drawable/ro" />
+	<TextView android:layout_width="fill_parent" android:id="@+id/text"
+		android:layout_height="wrap_content" android:text="112321"
+		android:layout_weight="1" android:gravity="center"
+		android:layout_centerInParent="true" />
+</RelativeLayout>

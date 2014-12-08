@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">jianghu_25_startup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="str_welcome">这是一个开机显示程序！</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1" >
+    
+    <ImageView android:id="@+id/blue"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/blueText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aboutText"/>
+    
+    <ImageButton android:id="@+id/newLover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aboutlover_new_selector"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/delteText"
+        style="@style/user_inverse_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue" 
+        android:padding="3dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/note_list_delete"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:background="@drawable/list_item_bg"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/delteText" 
+        android:layout_above="@id/interGELinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/interGELinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>

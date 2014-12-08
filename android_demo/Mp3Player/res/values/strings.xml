@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Mp3Player</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_mp3">Mp3Activity</string>
+    <string name="path">Music</string>
+    <string name="mp3list.update">更新列表</string>
+    <string name="mp3list.about">关于</string>
+    <string name="star">开始播放</string>
+    <string name="pause">暂停播放</string>
+    <string name="stop">停止播放</string>
+    <string name="text">我的心太乱，有一点空白</string>
+
+</resources>

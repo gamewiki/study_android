@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">jianghu_31_mp3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_mp3">Mp3Activity</string>
+    <string name="str_start">正在播放中....</string>
+    <string name="str_close">播放停止了......</string>
+    <string name="str_pause">暂停播放中......</string>
+    <string name="str_OnCompletionListener">播放完毕</string>
+    <string name="str_OnErrorListener">系统出错</string>
+
+</resources>

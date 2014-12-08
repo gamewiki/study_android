@@ -1,0 +1,13 @@
+1.drawable-(hdpi,mdpi,ldpi)的区别
+dpi是“dot per inch”的缩写，每英寸像素数。
+四种密度分类: ldpi (low), mdpi (medium), hdpi (high), and xhdpi (extra high)
+一般情况下的普通屏幕：ldpi是120，mdpi是160，hdpi是240，xhdpi是320。
+2.WVGA,HVGA,QVGA的区别
+VGA是"Video Graphics Array"，显示标准为640*480。
+WVGA(Wide VGA)分辨率为480*800
+HVGA(Half VGA)即VGA的一半分辨率为320*480
+QVGA(Quarter VGA)即VGA非四分之一分辨率为240*320
+3.drawable-(hdpi,mdpi,ldpi)和WVGA,HVGA,QVGA的联系
+hdpi里面主要放高分辨率的图片,如WVGA (480x800),FWVGA (480x854)
+mdpi里面主要放中等分辨率的图片,如HVGA (320x480)
+ldpi里面主要放低分辨率的图片,如QVGA (240x320)

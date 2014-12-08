@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="20px"
+        android:layout_y="0px"
+        android:text="@string/textMyTextView1"
+        android:textSize="18sp" >
+    </TextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/myAutoCompleteTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0px"
+        android:layout_y="20px"
+        android:completionThreshold="1"
+        android:textSize="18sp" >
+    </AutoCompleteTextView>
+
+</AbsoluteLayout>

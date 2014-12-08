@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">02_02_dataPicker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_data_picker">DataPickerActivity</string>
+
+    <string name="showTimeButton" >创建时间对话框</string>
+    <string name="showDateButton" >创建日期对话框</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">jianghu_02_notification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+
+</resources>

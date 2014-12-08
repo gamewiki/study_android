@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="lq_qiancheng">求签时请虔诚的想着心中所求之事</string>
+    <string name="lq_dianji">点击按钮获取灵签</string>
+    <string name="lq_imageContent">观音灵签</string>
+    <string name="lq_shake">摇晃手机获取灵签</string>
+    <string name="lq_shake_button">点击按钮获取灵签</string>
+    <string name="lq_getLQ">获取灵签</string>
+    <string name="lq_zhibei"> 重新求签，祈求神灵</string>
+    <string name="lq_zhibei1"> 开始掷杯，祈求神灵</string>
+    <string name="lq_zhibei2"> 继续掷杯，祈求神灵</string>
+    <string name="lq_zhibei3"> 查看签词</string>
+    <string name="lq_xiaobei">掷杯时，心灵并不真诚，获得笑杯，此签作废</string>
+    <string name="lq_yinbei">掷杯时，神灵有事在身，获得阴杯，此签作废</string>
+    <string name="lq_shengbei1">恭喜获得1次圣杯，需连续三次获得圣杯此签才是神灵的指示</string>
+    <string name="lq_shengbei2">恭喜获得2次圣杯，需连续三次获得圣杯此签才是神灵的指示</string>
+    <string name="lq_shengbei3">恭喜连续获得3次圣杯，此签为神灵指示</string>
+    <string name="lq_lost">数据丢失，请重新抽取</string>
+    <string name="lq_id">签数</string>
+    <string name="lq_jixiong">吉凶</string>
+    <string name="lq_gongwei">宫位</string>
+    <string name="lq_shi">诗云</string>
+    <string name="lq_jieyue">解曰</string>
+    <string name="lq_xianji">仙机</string>
+    <string name="lq_diangu">典故</string>
+
+</resources>

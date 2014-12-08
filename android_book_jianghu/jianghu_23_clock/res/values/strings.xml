@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">jianghu_23_clock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_clock">ClockActivity</string>
+    <string name="str_button1">设置</string>
+    <string name="str_button2">删除</string>
+    <string name="str_title1">只是响一次</string>
+    <string name="str_title2">可以重复响</string>
+    <string name="str_default">没有设置</string>
+    <string name="str_text1">设置开始时间</string>
+    <string name="str_text2">重复响的闹钟</string>
+    <string name="str_text3">秒</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">jianghu_01_dialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="buttonTest">测试Dialog</string>
+    <string name="msg">测试Dialog的内容啊</string>
+    <string name="buttonName1">确认</string>
+    <string name="buttonName2">详情</string>
+    <string name="buttonName3">取消</string>
+
+</resources>

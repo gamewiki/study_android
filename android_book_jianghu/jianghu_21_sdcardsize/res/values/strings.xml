@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">jianghu_21_sdcardsize</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_card">CardActivity</string>
+   <string name="strButton">获取存储卡的容量</string>
+
+</resources>

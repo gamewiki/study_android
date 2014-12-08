@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomLove"
+    android:background="@drawable/background1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ImageView android:id="@+id/blue"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription"/>
+    
+    <TextView android:id="@+id/blueText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aboutText"/>
+    
+    <ImageButton android:id="@+id/saveLover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/aboutlover_save_selector"
+        android:layout_toLeftOf="@id/blueText"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:contentDescription="@string/blueDescription"/>
+    
+
+    
+    <TextView 
+        android:id="@+id/name"
+        style="@style/user_style"
+        android:layout_below="@id/blue" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+    <TextView 
+        android:id="@+id/nickname"
+        style="@style/user_style"
+        android:layout_below="@id/blue" 
+        android:layout_toRightOf="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nickname"/>
+    
+    <TextView 
+        android:id="@+id/birthday"
+        style="@style/user_style"
+        android:layout_below="@id/nickname" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"/>
+    <TextView 
+        android:id="@+id/date"
+        style="@style/user_style"
+        android:layout_below="@id/nickname" 
+        android:layout_toRightOf="@id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView 
+        android:id="@+id/constellationNum"
+        android:layout_below="@id/blue" 
+        android:layout_toRightOf="@id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/sagittarius"/>
+
+    
+    <TextView 
+        android:id="@+id/description"
+        style="@style/user_style"
+        android:layout_below="@id/date" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"/>
+    <TextView 
+        android:id="@+id/editdescription"
+        style="@style/user_style"
+        android:layout_below="@id/date" 
+        android:layout_toRightOf="@id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editdescriptionError"/>
+    
+    <TextView 
+        android:id="@+id/phone"
+        style="@style/user_style"
+        android:layout_below="@id/description" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"/>
+    <TextView 
+        android:id="@+id/editphone"
+        style="@style/user_style"
+        android:layout_below="@id/description" 
+        android:layout_toRightOf="@id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editphoneError"/>
+    
+    <ImageButton
+        android:id="@+id/constellation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editphone"
+        android:background="@drawable/sagittarius_selector"
+        android:contentDescription="@string/constellation" />
+
+    <ImageButton
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editphone"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/favorite_selector"
+        android:contentDescription="@string/favorite" />
+
+    <ImageButton
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/editphone"
+        android:background="@drawable/experience_selector"
+        android:contentDescription="@string/experience" />
+
+
+    <LinearLayout
+        android:id="@+id/interGELinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>

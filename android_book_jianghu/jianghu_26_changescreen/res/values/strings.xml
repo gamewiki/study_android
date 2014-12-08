@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">jianghu_26_changescreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+    <string name="str_title0">每天自动换背景</string>
+    <string name="str_title1">星期天：</string>
+    <string name="str_title2">星期一：</string>
+    <string name="str_title3">星期二：</string>
+    <string name="str_title4">星期三：</string>
+    <string name="str_title5">星期四：</string>
+    <string name="str_title6">星期五：</string>
+    <string name="str_title7">星期六：</string>
+    <string name="str_noset">当前无设置</string>
+    <string name="str_set">设置</string>
+    <string name="str_button1">启动设置</string>
+    <string name="str_button2">终止设置</string>
+    <string name="str_progress">更新中请等待...</string>
+
+</resources>

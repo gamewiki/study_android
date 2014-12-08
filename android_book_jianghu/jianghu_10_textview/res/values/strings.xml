@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">jianghu_10_textview</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="button">拨打</string>
+	<string name="str_message">发信中……</string> 
+	<string name="str_receive">收件人:</string>
+	<string name="str_cc">副本:</string>
+	<string name="str_subject">主题:</string>
+	<string name="str_button">按下发送</string> 
+
+</resources>

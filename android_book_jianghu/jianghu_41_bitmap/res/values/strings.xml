@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">jianghu_41_bitmap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bitmap">BitmapActivity</string>
+    <string name="str_button1">预览图片</string>
+    <string name="str_button2">这是开关</string>
+    <string name="str_take_picture">拍照解码</string>
+
+</resources>

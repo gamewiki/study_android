@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomLove"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1" >
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription" />
+
+    <TextView
+        android:id="@+id/blueText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/periodText" />
+    
+
+    <ImageButton
+        android:id="@+id/enterCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue"
+        android:background="@drawable/period_day_selector"
+        android:contentDescription="@string/enterCalendar" />
+
+    <ImageButton
+        android:id="@+id/periodThings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/blue"
+        android:background="@drawable/period_food_selector"
+        android:contentDescription="@string/periodThings" />
+
+
+    <TextView
+        android:id="@+id/periodDaysDes"
+        style="@style/user_inverse_style"
+        android:paddingTop="3dp"
+        android:layout_below="@id/periodThings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/periodDaysDes" />
+    <TextView
+        android:id="@+id/coldDaysDes"
+        style="@style/user_inverse_style"
+        android:paddingTop="3dp"
+        android:layout_below="@id/periodDaysDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coldDaysDes" />
+    <TextView
+        android:id="@+id/dangerDaysDes"
+        style="@style/user_inverse_style"
+        android:paddingTop="3dp"
+        android:layout_below="@id/coldDaysDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dangerDaysDes" />
+    <TextView
+        android:id="@+id/safeDaysDes"
+        style="@style/user_inverse_style"
+        android:paddingTop="3dp"
+        android:layout_below="@id/dangerDaysDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/safeDaysDes" />
+    <LinearLayout
+        android:id="@+id/interGELinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>

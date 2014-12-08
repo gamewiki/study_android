@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/about_background"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_part1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color" />
+
+        <TextView
+            android:id="@+id/about_part2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part1"
+            android:textColor="@drawable/text_color" />
+
+        <TextView
+            android:id="@+id/about_part3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part2"
+            android:textColor="@drawable/text_color" />
+
+        <ImageButton
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part3"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/share" />
+
+        <com.tencent.mobwin.AdView
+            xmlns:mobwin="http://mobwin.android.com/apk/res/sid.note"
+            android:id="@+id/adview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shareButton"
+            android:layout_alignParentBottom="true"
+            mobwin:backAlpha="180"
+            mobwin:textColor="#ffff3333"
+            mobwin:titleColor="#ff00aa00" >
+        </com.tencent.mobwin.AdView>
+    </RelativeLayout>
+
+</ScrollView>

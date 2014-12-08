@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">jianghu_36_search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+   <string name="textMyTextView1">先输入关键字</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lq_start"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/lq_backgroud"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView 
+        android:id="@+id/lq_qiancheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        style="@style/cg_user_style"
+        android:text="@string/lq_qiancheng"/>
+    <TextView 
+        android:id="@+id/lq_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        style="@style/cg_user_style"
+        android:text="@string/lq_shake"/>
+    
+    <ImageView
+        android:id="@+id/image_lq_lq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/lq_shake"
+        android:background="@drawable/lq_lq"
+        android:contentDescription="@string/lq_imageContent" />
+
+    <ImageView
+        android:id="@+id/image_lq_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lq_shake"
+        android:background="@drawable/lq_box"
+        android:contentDescription="@string/lq_imageContent" />
+    
+    <ImageButton
+        android:id="@+id/lq_shake_button"
+        android:layout_below="@id/image_lq_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/qiuqian"
+        android:contentDescription="@string/lq_imageContent">
+    </ImageButton>
+    
+    <ImageButton
+        android:id="@+id/lq_zhibei_button"
+        android:layout_below="@id/image_lq_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/zhibei1"
+        android:contentDescription="@string/lq_imageContent">
+    </ImageButton>
+    
+    <ImageButton
+        android:id="@+id/lq_chongchou_button"
+        android:layout_below="@id/image_lq_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chongchou"
+        android:contentDescription="@string/lq_imageContent">
+    </ImageButton>
+    
+</RelativeLayout>

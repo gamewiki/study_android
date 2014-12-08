@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	interpolator属性：
+	可以共享给set集合的每个元素：shareInterpolator=“true”
+	accelerateDecelerateInterpolator:
+		动画开始与结束地方速率慢，中间的时候加速
+	accelerateInterpolator：
+		动画开始的地方较慢，然后开始加速
+	cycleInterpolator:
+		动画循环播放特定的次数，速率改变沿着正弦曲线
+	decelerateInterpolator：
+		在动画开始的地方速率改变比较慢，然后开始减速
+	LinearInterpolator：
+		在动画的以匀速改变
+ -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!-- 
+    	等待500毫秒 
+    	位置转换变动
+    	-->
+    <translate
+        android:fromXDelta="50%"
+        android:toXDelta="100%"
+        android:fromYDelta="0%"
+        android:toYDelta="100%"
+        android:duration="2000"/>
+</set>

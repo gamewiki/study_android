@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_35_upload</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="str_button">上传开始</string>
+    <string name="str_title">文件上传装置</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_12_toast_image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_toast">ToastActivity</string>
+  <string name="app_url">http://www.163.com</string>
+  <string name="str_button1">有图片的提醒很绚丽！</string>
+
+</resources>

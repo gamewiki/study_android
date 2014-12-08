@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_shock">ShockActivity</string>
+  <string name="hello">hello</string>
+  <string name="app_name">您可以选择振动模式</string>
+  <string name="str_text1">短时间震动</string>
+  <string name="str_text2">长时间震动</string>
+  <string name="str_text3">有节奏感震动</string>
+  <string name="str_ok">正在震动中....</string>  
+  <string name="str_end">震动结束了....</string> 
+
+</resources>

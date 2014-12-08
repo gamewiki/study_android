@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1" >
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/blue_background"
+        android:contentDescription="@string/blueDescription" />
+
+    <TextView
+        android:id="@+id/blueText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/periodText" />
+
+    <TextView
+        android:id="@+id/periodDaysText"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue"
+        android:text="@string/periodDaysText" />
+
+    <TextView
+        android:id="@+id/periodDays"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/periodDaysText"
+        android:layout_below="@id/blue"
+        android:text="@string/periodDays" />
+
+    <TextView
+        android:id="@+id/periodDayText"
+        style="@style/user_inverse_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/periodDays"
+        android:text="@string/periodDayText" />
+
+    <TextView
+        android:id="@+id/periodDay"
+        style="@style/user_inverse_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/periodDays"
+        android:layout_toRightOf="@id/periodDayText" 
+        android:text="@string/periodDay" />
+
+    <ImageButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/aboutlover_save_selector"/>
+<!-- 
+    <Button
+        android:id="@+id/btCenter"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_toLeftOf="@id/btCenter" />
+
+    <Button
+        android:id="@+id/btRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save"
+        android:layout_toRightOf="@id/btCenter" />
+ -->
+
+    <sid.lover.period.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/month"
+        style="@style/note_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/calendar"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/interGELinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center" />
+</RelativeLayout>

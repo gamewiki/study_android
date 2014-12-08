@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_14_data</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="test">test</string>
+    <string name="affirm_button">确认路径</string>
+
+</resources>

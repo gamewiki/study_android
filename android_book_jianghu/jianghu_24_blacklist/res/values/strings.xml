@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">jianghu_24_blacklist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_blacklist">BlacklistActivity</string>
+    <string name="str_button1">获取信息</string>
+    <string name="input">电话号码:</string>
+    <string name="str_CALL_STATE_IDLE">现在是待机状态</string>
+    <string name="str_CALL_STATE_OFFHOOK">正在通话中......</string>
+    <string name="str_CALL_STATE_RINGING">有来电进来：</string>
+    <string name="str_msg">使用静音模式中....</string>
+
+</resources>

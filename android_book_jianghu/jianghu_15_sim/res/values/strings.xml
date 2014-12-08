@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">jianghu_15_sim</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sim">SIMActivity</string>
+  <string name="str_list4">SIM国家是</string>
+  <string name="str_list2">供应商是</string> 
+  <string name="str_list3">供应商名是</string>
+  <string name="str_list0">当前的状态是</string>
+  <string name="str_list1">当前的卡号是</string>
+
+</resources>

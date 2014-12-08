@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">changescreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+  <string name="hello">example12</string>
+  <string name="str_button1">改变方向</string>
+  <string name="str_err_1001"></string>
+  <string name="str_msg1">改变为横向显示</string>
+  <string name="str_msg2">改变为纵向显示</string>
+
+</resources>

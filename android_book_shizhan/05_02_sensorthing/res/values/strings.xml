@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">05_02_sensorthing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_thing">ThingActivity</string>
+	<string name="button">传感器事件</string>
+    
+</resources>

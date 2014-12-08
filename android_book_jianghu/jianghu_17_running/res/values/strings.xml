@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">jianghu_17_running</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_running">RunningActivity</string>
+  <string name="hello">正在获取运行的程序</string>
+  <string name="str_button1">获取中......</string>
+  <string name="str_err_permission">你没有权限！！！</string>
+  <string name="str_err_no_running_task">没有运行的程序！</string>
+  <string name="str_err_no_running_service">没有运行的服务！</string>
+</resources>

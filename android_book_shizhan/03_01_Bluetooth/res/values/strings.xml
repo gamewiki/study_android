@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">03_01_Bluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+
+    <string name="bluetooth">扫描蓝牙设备</string>
+</resources>

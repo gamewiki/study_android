@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">02_06_Animations</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_animations">AnimationsActivity</string>
+    <string name="scale">测试scale效果</string>
+    <string name="rotate">测试rotate效果</string>
+    <string name="alpha">测试alpha效果</string>
+    <string name="translate">测试translate效果</string>
+
+    <string name="des">测试动画效果</string>
+</resources>

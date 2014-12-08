@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">03_03_UserLoction</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+    <string name="location">绑定监听器</string>
+</resources>

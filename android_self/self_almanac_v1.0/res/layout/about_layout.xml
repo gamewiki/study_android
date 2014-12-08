@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/about_background"
+    android:scrollbars="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_part1"
+            style="@style/about_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/text_color" />
+
+        <TextView
+            android:id="@+id/about_part2"
+            style="@style/about_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part1"
+            android:textColor="@drawable/text_color" />
+
+        <TextView
+            android:id="@+id/about_part3"
+            style="@style/about_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part2"
+            android:textColor="@drawable/text_color" />
+
+        <ImageButton
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_part3"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/share" />
+    </RelativeLayout>
+
+</ScrollView>

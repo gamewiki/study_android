@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Layout_04</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_layout04">Layout04</string>
+    <string name="TypeText">TypeText</string>
+    <string name="Ok">Go</string>
+    <string name="Cancel">Cancel</string>
+    <string name="hideText">输入你想输入的信息哦</string>
+
+</resources>

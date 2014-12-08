@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/destiny_backgroud" >
+
+    <TextView
+        android:id="@+id/cgIndex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp" />
+
+    <ImageButton
+        android:id="@+id/enterCG"
+        android:layout_below="@id/cgIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cg_appname"
+        android:contentDescription="@string/enterCG" />
+
+    <ImageButton
+        android:id="@+id/originCG"
+        android:layout_below="@id/cgIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/enterCG"
+        android:background="@drawable/cg_appdes"
+        android:contentDescription="@string/originCG" />
+    <ImageButton
+        android:id="@+id/enterLQ"
+        android:layout_below="@id/enterCG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/appname_gylq"
+        android:contentDescription="@string/enterCG" />
+
+    <ImageButton
+        android:id="@+id/originLQ"
+        android:layout_below="@id/enterCG"
+        android:layout_toRightOf="@id/enterLQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/appname_gylq_about"
+        android:contentDescription="@string/originCG" />
+    
+
+</RelativeLayout>

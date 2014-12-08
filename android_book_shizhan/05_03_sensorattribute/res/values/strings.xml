@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">05_03_sensorattribute</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_attribute">AttributeActivity</string>
+    <string name="button">获取所有传感器</string>
+
+</resources>

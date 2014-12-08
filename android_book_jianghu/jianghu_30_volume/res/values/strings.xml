@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">jianghu_30_volume</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_volume">VolumeActivity</string>
+    <string name="str_text1">设置声音模式</string>
+    <string name="str_text2">设置音量大小</string>
+
+</resources>
