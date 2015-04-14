@@ -1,9 +1,0 @@
-<resources>
-
-    <string name="app_name">self_05_font</string>
-    <string name="hello_world">Hello world!我在中国啊</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="button">换字体</string>
-
-</resources>

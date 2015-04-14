@@ -1,9 +1,0 @@
-<resources>
-
-    <string name="app_name">self_04_displaytext</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_display">DisplayActivity</string>
-    <string name="text">title activity display 天罡，唐朝初年益州（今四川成都）人，善风鉴，占事如神，曾在隋朝当</string>
-
-</resources>
